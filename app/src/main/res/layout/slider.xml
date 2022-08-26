@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/imgMedCare"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/img_1"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#fff"/>
+
+    <TextView
+        android:id="@+id/tvTitle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgMedCare"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Medical Care"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTitle1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:padding="20dp"
+        android:fontFamily="casual"
+        android:text="There is nothing more exciting for many families than bringing home a healthy pet – especially if it is a kitten."
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+</RelativeLayout>
